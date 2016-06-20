@@ -1,7 +1,7 @@
 # 使用kubernetes部署kafka集群
 #### kafka镜像步骤如下:
-* 准备制作flume镜像的Dockerfile
-* 生成本地镜像,在Dockerfile目录下执行： docker build -t flume .
+* 准备制作kafka镜像的Dockerfile
+* 生成本地镜像,在Dockerfile目录下执行： docker build -t kafka .
 * 将本地镜像上传到daocloud，没有上传到dockerhub的主要原因是网络不给力
 ```
 docker tag kafka daocloud.io/zhengbo0/kafka
